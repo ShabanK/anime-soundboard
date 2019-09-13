@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "reactstrap";
 
 const Layout = () => {
   return (
@@ -11,6 +12,7 @@ const Layout = () => {
       }}
     >
       <header className="header"> ANIME SOUNDBOARD </header>
+      <Button> I like testing </Button>
     </div>
   );
 };
