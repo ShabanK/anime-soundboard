@@ -1,14 +1,28 @@
 .header {
-  font-family: "Saira Stencil One", cursive;
+  font-family: "Saira Stencil One";
   width: 100%;
   height: 100%;
-  font-size: 10ch;
+  font-size: 100px;
   color: whitesmoke;
   text-align: center;
   height: 5%;
 }
+.navbar {
+  background-color: black;
+  height: 6.5%;
+}
+.banner {
+  font-size: 240%;
+  color: whitesmoke;
+}
+.iconRe {
+  color: whitesmoke;
+  font-size: 240%;
+  margin-bottom: 2.5%;
+}
 
-/* .layout {
-  background-color: red;
-  height: 166vh;
-} */
+@media (max-width: 575px) {
+  * {
+    width: 580px;
+  }
+}

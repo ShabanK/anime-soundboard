@@ -3,7 +3,7 @@ import Layout from "./components/layout";
 import "./App.css";
 
 function App() {
-  return <Layout className="layout" />;
+  return <Layout />;
 }
 
 export default App;
