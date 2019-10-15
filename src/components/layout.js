@@ -9,10 +9,10 @@ const Layout = () => {
     <>
       <Container
         style={{
+          backgroundImage: `url(${bg})`,
           backgroundRepeat: "none",
           backgroundPosition: "center",
-          backgroundImage: `url(${bg})`,
-          height: "164vh",
+          height: "100vh",
           fontFamily: "Saira Stencil One",
           padding: 0
         }}
