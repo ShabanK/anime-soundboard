@@ -12,6 +12,7 @@ const Layout = () => {
           backgroundImage: `url(${bg})`,
           backgroundRepeat: "none",
           backgroundPosition: "center",
+          backgroundSize: "cover",
           height: "100vh",
           fontFamily: "Saira Stencil One",
           padding: 0
